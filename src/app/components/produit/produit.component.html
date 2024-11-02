@@ -1,0 +1,46 @@
+<div id='produit' class="produit">
+
+    <div class="left">
+
+
+
+        <div class="name">{{produit.name}}</div>
+        <div class="discription"> {{produit.description}}</div>
+
+    </div>
+
+    <div class="right">
+
+        <div class="poid">
+            {{produit.weight}} g
+        </div>
+
+
+        <img src={{produit.image}} class="image"> 
+        <div id='quantite ' class="quantite">
+            qté {{produit.stock}}
+        </div>
+
+        <div class="prix">
+            {{produit.price}}€
+        </div>
+
+        <div class="cart">
+
+            
+            
+                <!-- <button class="hidden-button"  (click)="onImageClick(produit.id)">  <img src="/images/panier.jpg" class="cartimg" /></button> -->
+              
+                <button 
+                (click)="onImageClick(produit.id)" 
+                class="hidden-button"
+               >
+              </button>
+              
+            
+        </div>
+
+
+    </div>
+
+</div>

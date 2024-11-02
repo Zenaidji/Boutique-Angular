@@ -1,0 +1,129 @@
+ .produit {
+
+
+
+     display: grid;
+     grid-template-columns: 3fr 2fr;
+     height: 100%;
+     margin: 1rem;
+     border: solid thin #ddd;
+ 
+
+
+
+
+
+ }
+
+
+
+ .produit:hover {
+    border : solid thin red;
+ }
+
+
+
+
+
+ .left {
+    display: grid;
+    grid-template-columns: 3fr 1 fr;
+
+
+ }
+
+ .right {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+
+     align-items: center;
+     column-gap: 1rem;
+ }
+
+ .name {
+
+     font-family: sans-serif;
+     font-size: medium;
+     padding: 0.5rem;
+ }
+
+
+ .discription {
+     font-family: sans-serif;
+     font-size: smaller;
+     max-width: 100%;
+
+     padding: 0px 4px;
+ }
+
+ .image {
+     width: 3.5rem;
+     border: solid 2px rgb(128, 128, 256);
+     border-radius: 6px;
+
+
+ }
+
+ .poid {
+     font-style: italic;
+     font-family: sans-serif;
+     font-size: small;
+     color: #999;
+
+ }
+
+
+
+ .quantite {
+    font-family: sans-serif;
+    font-weight : bold;
+    font-size: medium;
+   
+ }
+
+ .prix {
+    font-family: sans-serif;
+    font-weight : bold;
+    font-size : large;
+  
+ }
+
+ 
+
+ .hidden-button:hover {
+    border : solid 2px red;
+ } 
+ .hidden-button {
+ background: url('/images/panier.jpg') no-repeat center center; 
+    background-size: cover; 
+    width:  30px;   
+    height: 30px;
+  
+
+
+    margin : 0px 5px;
+   
+    border: solid 2px lightgreen;
+    padding : 2px;
+    border-radius : 4px;
+    
+}
+
+
+.hidden-button {
+    background: url('/images/panier.jpg') no-repeat center center; 
+       background-size: cover; 
+       width:  30px;   
+       height: 30px;
+     
+   
+   
+       margin : 0px 5px;
+      
+       border: solid 2px lightgreen;
+       padding : 2px;
+       border-radius : 4px;
+       
+   }
+
+ 

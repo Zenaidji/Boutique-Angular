@@ -1,0 +1,19 @@
+<div class="panier">
+<h1 class="titrePanier">panier</h1>
+<div class="listAchats" >
+    <div class="content" *ngFor="let panierproduit of panierProduits ">
+    <div class="panierNom">{{panierproduit.name}}</div>
+    <img src={{panierproduit.image}} class="panierImg"> 
+
+    <input value="{{panierproduit.stock}}" class='panierQteInput' (change)="changeQuantity(panierproduit.id,$event)"  id="panierInput" type="number" min="1" [max]="getMaxStock(panierproduit.id)"> 
+
+
+   <button class="panierSup"   (click)="removeFromCart(panierproduit.id)"></button>
+   
+</div>
+</div>
+<div class="totalAchats">
+  <div class="commande">total commande:{{totalPrice}}</div>
+</div>
+
+</div>

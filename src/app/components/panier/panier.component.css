@@ -1,0 +1,117 @@
+.panier {
+    border: solid gray 1.5px; 
+    box-shadow: 2px 3px 5px rgba(49, 48, 48, 0.3); 
+    height: 90vh;
+    position: relative; 
+    width: 100%; 
+ 
+
+
+   
+
+   
+}
+
+.titrePanier{
+  
+    font-size: 2vw; 
+    margin-left: 1rem;
+    
+} 
+
+
+
+
+
+
+.listAchats{
+   
+    overflow: scroll;
+    height: 80%;
+   
+
+
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr; 
+    border: solid thin #ddd;
+    margin-bottom: 1%;
+    width: 98%;
+    text-align: center;
+}
+
+.content:nth-child(even){
+    background-color: #fdfdfd; 
+
+
+}
+
+.content:nth-child(odd){
+   
+background-color: #f0f0f0; 
+    
+}
+
+
+
+.totalAchats {
+    position: absolute; 
+    bottom: 0;
+    width: 98%; 
+    border: solid 2px green;
+    left: 1%; 
+  
+    text-align: center;
+    
+    height: 6.5%;
+    background-color: wheat;
+ 
+    
+   
+}
+.commande{
+
+   font-size: large;
+   font-weight:bold;
+
+  
+    
+}
+
+.panierSup {
+    background: url('/images/poubelle.jpg') no-repeat center center; 
+       background-size: cover; 
+       width:  22px;   
+       height: 22px;
+     
+   
+   
+       margin : 0px 5px;
+    
+       border: solid 2px lightgreen;
+       padding : 2px;
+       border-radius : 4px;
+
+       
+   }
+
+   .panierSup:hover{
+    border : solid thin red;
+   }
+
+
+   .panierImg{
+
+    width: 2rem;
+    border: solid 2px rgb(128, 128, 256);
+    border-radius: 6px;
+
+   }
+   .panierQteInput{
+    width: 2.5rem;
+    height: 20px;
+ 
+   }
+

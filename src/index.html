@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <style>
+     app-root {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(4,1fr);
+       height: 100vh;  
+      
+                
+} 
+
+.app  {
+    display: grid;
+    grid-column: 1/ 5;
+    grid-row: 1 / 4;
+ 
+    grid-template-columns: 3fr 2fr;
+
+    height: 90vh; 
+    column-gap: 1vw;
+  
+  
+ 
+ 
+} 
+
+
+
+app-boutique{
+  max-height: 5vh;
+  min-width: 20vw;
+
+}
+  
+
+.listProduits app-produit:nth-child(odd) .produit {
+    background-color: #f0f0f0; 
+}
+
+.listProduits app-produit:nth-child(even) .produit {
+    background-color: #ffffff; 
+   
+}
+
+
+app-panier{
+  min-width: 20vw;
+
+
+}
+
+
+
+  </style>
+
+
+  <app-root></app-root> 
+  
+
+
+ 
+  
+
+</body>
+</html>

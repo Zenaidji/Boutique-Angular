@@ -1,0 +1,14 @@
+
+<div class="boutique">
+<h1 class="titreBoutique">Boutique</h1>
+<div class="filterContainer"><input  class="filter" type="text"  (keyup)="searchProduct($event)"  placeholder="filtrer les produits"></div>
+<div class="listProduits" *ngFor="let product of listesProduits">
+    
+
+<app-produit [produit]="product"></app-produit>
+
+
+
+</div>
+
+</div>

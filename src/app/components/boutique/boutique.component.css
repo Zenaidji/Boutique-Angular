@@ -1,0 +1,23 @@
+
+
+.boutique {
+    border: solid gray 1.5px; 
+    box-shadow: 2px 3px 5px rgba(49, 48, 48, 0.3); 
+
+    height: 90vh;
+    overflow: scroll;
+   
+    
+    
+  
+}
+.titreBoutique{
+ margin-left: 1rem;
+    font-size: 2vw; 
+}
+.filterContainer{
+    display: flex;
+   justify-content: flex-end;
+    margin-right: 1rem;
+}
+
